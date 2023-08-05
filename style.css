@@ -1,0 +1,422 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body{
+    background-color: #DFD8D3;
+}
+
+
+
+
+                    /* THE MAIN BODY STYLING */
+main{
+    max-width: 1080px;
+    margin: auto;
+}
+
+
+#logo, .socials, .contacts{
+    cursor: pointer;
+}
+
+            /*========== NAVBAR STYLE========= */
+.navBar{
+    position: sticky;
+    top: 0;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(202, 202, 202);
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#no-style-links {
+    text-decoration: none;
+    color: black;
+}
+
+
+.logo-links{
+    display: flex;
+    align-items: center;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.ulist{
+    display: flex;
+}
+
+#links{
+    margin-left: 3rem;
+    cursor: pointer;
+}
+
+.hambuger-menu, #hambuger-btn{
+    width: 40px;
+    cursor: pointer;
+}
+
+
+/* MOBILE DROPDOWN STYLE */
+.drop-down{
+    position: fixed;
+    background: linear-gradient(to right, #FE481E, #FE1E61);
+     width: 100%;
+    font-size: 10vw;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+}
+.nav-drop-down{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.drop-down-link{
+    margin-top: 5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+
+}
+
+
+                /*======= HERO SECTION STYLE======== */
+
+.inner-hero{
+    padding-top: 3em;
+    text-align: center;
+    max-width: 70vw;
+    margin: auto;
+}
+
+.proDev{
+    color: #FE481E;
+    font-size: 4vw;
+}
+.devmoh{
+    color: #FE1E61;
+}
+
+.uiDev{
+    font-size: 6.5vw;
+    margin-top: .7em;
+    margin-bottom: .4em;
+}
+
+.work{
+   font-size: .7rem; 
+   max-width: 30vw;
+   margin: auto;
+   color: gray;
+}
+.wrkbtn{
+    background: linear-gradient(to right, #FE481E, #FE1E61);
+    border: none;
+    font-size: 3vw;
+    margin-top: 1em;
+    padding: .4em;
+    border-radius: .3em;
+    cursor: pointer;
+}
+.wrkbtn:hover{
+    background: linear-gradient(to right,  #FE1E61, #FE481E);
+    color: white;
+}
+
+
+
+                /*------ MAC WINDOWS GITHUB ETC STYLES------- */
+
+
+.techComps{
+    max-width: 1080px;
+    margin: auto;
+    align-items: center;
+}
+.pleasure{
+    text-align: center;
+    margin-top: 5em;
+    margin-bottom: 2em;
+}
+.frames1{
+    width: 50%;
+    margin: auto;
+    margin-bottom: 3em;
+}
+#frames1{
+    width: 100% ;
+}
+
+
+
+                            /* ============== WORK SECTION STYLE============ */
+
+.work-section{
+    width: 90%;
+    margin: auto;
+}
+.ourWork{
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 2em;
+    margin-bottom: .5em;
+}
+
+.des-dev{
+    text-align: center;
+    max-width: 500px;
+    margin: auto;
+}
+
+
+/* BACKGROUND COLOUR FOR THE WEB SOLUTIONS DIV (LINE 114 ON THE INDEX FILE) */
+.web-solution{
+    margin-top: 40px;
+    background:  #FC6666;
+    max-height: 90vh;
+}
+
+
+.tailwind-img{
+    margin-top: 100px;
+    background: #FA9F8B;
+    max-height: 44vw;
+
+}
+
+.nature{
+    margin-top: 350px;
+    background: #FC6666;
+    max-height: 90vh;
+
+}
+
+
+
+
+
+
+#original1{
+    max-width: 100%;
+    margin: auto;
+    padding-top: 2em;
+}
+.original1{
+    text-align: center;
+    max-width: 400px;
+    margin: auto;
+}
+
+.group{
+    width: 80px;
+    margin: auto;
+}
+
+#group{
+    max-width: 80px;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.inner-original{
+    text-align: center;
+    max-width: 300px;
+    margin: auto;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.inner-original1{
+    font-size: .8rem;
+    font-weight: normal;
+}
+
+
+                        /* ============AVAILABILYTY SECTION STYLE========== */
+
+.availability{
+    max-width: 500px;
+    margin: auto;margin-top: 100px;
+}
+
+.current-freelance{
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.design-developer{
+    color: grey;
+    font-size: .8rem;
+    width: 150px;
+    margin-top: 1em;
+}
+
+.mail-contact{
+    color: #FE1E61;
+    cursor: pointer;
+    font-size: .8rem;
+    margin-top: 1em;
+}
+
+.inner-contact{
+    color: black;
+    margin-left: 3em;
+}
+
+.inMind-btn{
+    background: linear-gradient(to right, #fc4117, #FE1E61);
+    border: none;
+    border: none;
+    padding: 1.3em;
+    border-radius: .3em;
+    cursor: pointer;
+    margin-top: 1em;
+}
+
+
+/* ============FOOTER SECTION STYLE ===========*/
+.footer-section{
+    font-size: .7rem;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+
+
+/*====================== MEDIA QUERIES DESKTOP FIRST========================= */
+
+@media screen and (max-width:768px) {
+    /* THE NAV BAR PROPERTIES */
+    .links, .contacts, .socials{
+        display: none;
+    }
+
+    /* PLEASURE AT MAC WINDOWS GITHUB ETC */
+    .pleasure{
+        font-size: .8rem;
+    }
+
+
+    /* DES-DEV, AND ORIGINAL1 AT THE WORK SECTION */
+    .des-dev, .original1{
+        font-size: .8rem;
+    }
+    
+    /* THE FOOTER SECTION */
+    .footer-section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .copyright, .privacy, .footer-socials{
+        margin-top: 20px;
+    }
+
+
+    
+
+    /* THE ABOUT PAGE MEDIA QUERY STYLE */
+
+    /* about hero section */
+
+    .hero-flex{
+        display: flex;
+        flex-direction: column;
+    }
+    #dev-des{
+        width: 100vw;
+    }
+
+
+
+    /* STYLE FOR QUALITY DIC SECTION */
+    .regardless-fex-area{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    /* ===========ABILITY SECTION STYLE============== */
+    .ability-flex{
+        display: flex;
+        flex-direction: column;
+        width: 60vw;
+        margin: auto;
+    }
+
+    .inner-ability{
+        margin-top: 20px;
+    }
+
+
+    /* ======OUR WORK SECTION WITH BACKGROUND COLOURS======== */
+    .web-solution, .nature{
+        max-height: 50vw;
+    }
+}
+
+
+/* ================================================================================================== */
+
+/*====================== MEDIA QUERIES MOBILE FIRST========================= */
+
+@media screen and (min-width:768px) {
+    /* NAV BAR HAMBURGER MENU */
+    .hambuger-menu{
+        display: none;
+    }
+
+    /* DROPDOWN MENU */
+    .drop-down{
+        display: none;
+    }
+
+     
+    #dev-des{
+        width: 40vw;
+    }
+
+
+    /* ==============THE CONTACT PAGE STYLE ==============*/
+
+    .cont-flex{
+        max-width: 400px;
+    }
+
+    .reg-sec{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 700px;
+        margin: auto;
+    }
+}
+

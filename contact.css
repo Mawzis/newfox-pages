@@ -1,0 +1,137 @@
+/* CONTACT HERO SECTION STYLE */
+
+.contact-hero{
+    max-width: 60vw;
+    margin-top: 20px;
+}
+
+.freelance-work{
+    font-size: 5vw;
+    font-weight: 600;
+}
+
+.work-done{
+    margin-top: 20px;
+    color: grey;
+    font-size: 3.5vw;
+}
+
+.cont-flex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    align-items: center;
+}
+
+#tweet-btn{
+    border: none;
+    background-color: #FE1E61;
+    padding: 10px;
+    border-radius: 5px;
+}
+#tweet-btn:hover{
+    font-weight: bold;
+}
+
+#tweet-link{
+    text-decoration: none;
+    color: black;
+}
+#tweet-link:hover{
+    color: white;
+}
+
+
+
+/* OPTION SECTION STYLE */
+.option-section{
+    margin-top: 100px;
+    max-width: 60vw;
+}
+
+.send-message{
+    font-size: 5vw;
+    font-weight: bold;
+}
+
+.our-job-des{
+    font-size: .8rem;
+    margin-top: 30px;
+}
+#sign{
+    color: #FE481E;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+.charges{
+    font-size:1.3rem;
+    margin-top: 30px;
+}
+.charges-text{
+    font-size: .5rem;
+    max-width: 200px;
+    color: grey;
+}
+
+.our-job-des-p{
+    margin-top: 30px;
+}
+
+
+/* THE REGISTRATION SECTION STYLE */
+
+.reg-sec{
+    margin-top: 100px;
+}
+
+.mind-project{
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.project-text{
+    margin-top: 2em;
+    font-size: .8rem;
+    color: grey;
+    max-width: 250px;
+}
+
+/* input fields style */
+
+.input-fields{
+    margin-top: 30px;
+}
+
+label{
+    font-size: .8rem;
+}
+
+.inner-fields{
+    margin-top: 15px;
+}
+
+.input-st{
+    padding: 10px;
+}
+
+.full-capacity{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.capacity-btn{
+    border: none;
+    width: 40vw;
+    background: linear-gradient(to right, #fc4117, #FE1E61);
+    font-size: 3vw;
+    padding: 1em;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.capacity-btn:hover{
+    background: linear-gradient(to left, #fc4117, #FE1E61);
+    color: white;
+}
